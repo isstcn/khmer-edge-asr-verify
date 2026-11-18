@@ -1,0 +1,28 @@
+The MIT licence in `LICENSE` covers the code in this repository. It does not
+cover the third-party corpora, model checkpoints, or the reference text embedded
+in the measurement sidecars, which carry their own licences:
+
+FLEURS (`google/fleurs`, splits `km_kh` and `en_us`) is published by Google
+Research under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+Citation: Arora et al., "FLEURS: Few-shot Learning Evaluation of Universal
+Representations of Speech", SLT 2022. The per-utterance sidecars under
+`results/*.jsonl` embed the FLEURS reference columns (`raw_ref`, `norm_ref`) as
+measured; that text is redistributed here under CC BY 4.0 and is not covered by
+the MIT licence above. The FLEURS audio archives are not redistributed; fetch
+them with `scripts/dl_data.py`.
+
+OpenSLR SLR42 ("High quality TTS data for Khmer", km_kh_male) is licensed
+CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), verbatim from the
+shipped `data/slr42/LICENSE` and `data/slr42/info.txt`, which are included here.
+SLR42 is used only as additional adaptation data and never for evaluation. Its
+audio is not redistributed; fetch it with `scripts/dl_data.py`. Any adapter
+trained on it inherits the ShareAlike terms; the trained weights are not shipped
+in this repository.
+
+The Whisper checkpoints are OpenAI model weights re-hosted by the ModelScope
+`openai-mirror` organisation. They are not redistributed here; `scripts/dl_models.py`
+fetches them under an explicit file allow-list. Their licence terms are those of
+the original OpenAI release.
+
+Per-corpus provenance, licence, pinned byte sizes and SHA-256 hashes are recorded
+in `data/DATA_CARD.md`.

@@ -1,0 +1,83 @@
+{
+  "base": "whisper-small",
+  "arm": "decoder",
+  "rank": 54,
+  "lora_alpha": 108,
+  "lora_dropout": 0.05,
+  "target_regex": ".*decoder\\.layers\\.\\d+\\.self_attn\\.(q|v)_proj|.*decoder\\.layers\\.\\d+\\.encoder_attn\\.(q|v)_proj",
+  "modules_matched": 48,
+  "trainable_params": 3981312,
+  "total_params": 245716224,
+  "trainable_fraction": 0.016202886139093525,
+  "budget": 4000000.0,
+  "train_utterances": 4484,
+  "dev_utterances": 308,
+  "train_hours": 18.32745861111111,
+  "dev_hours": 1.1767999999999998,
+  "train_source": "fleurs_km_train+slr42[2906]",
+  "train_tsv": "data/fleurs/km_train.tsv",
+  "slr42_root": "data/slr42",
+  "train_cache": "cache\\whisper-small+slr42",
+  "epochs": 6,
+  "batch": 4,
+  "grad_accum": 4,
+  "effective_batch": 16,
+  "lr": 0.0002,
+  "scheduler": "cosine",
+  "warmup_ratio": 0.05,
+  "weight_decay": 0.0,
+  "max_grad_norm": 1.0,
+  "seed": 20261031,
+  "device": "cuda",
+  "dtype": "float32",
+  "total_optimizer_steps": 1686,
+  "train_seconds": 2334.7990914999973,
+  "best_dev_loss": 0.6883889637132983,
+  "best_epoch": 5,
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": 1.5214304075067562,
+      "dev_loss": 1.3342998670077204,
+      "epoch_seconds": 392.0,
+      "steps": 281
+    },
+    {
+      "epoch": 1,
+      "train_loss": 1.1743178147370497,
+      "dev_loss": 1.1318490649659736,
+      "epoch_seconds": 388.0,
+      "steps": 562
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9797764311949334,
+      "dev_loss": 0.9289569778845247,
+      "epoch_seconds": 388.5,
+      "steps": 843
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7812166621975918,
+      "dev_loss": 0.7580143157078562,
+      "epoch_seconds": 389.1,
+      "steps": 1124
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6644811271694798,
+      "dev_loss": 0.69463676793332,
+      "epoch_seconds": 388.6,
+      "steps": 1405
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6221784761671513,
+      "dev_loss": 0.6883889637132983,
+      "epoch_seconds": 387.8,
+      "steps": 1686
+    }
+  ],
+  "torch": "2.6.0+cu118",
+  "cuda": "11.8"
+}

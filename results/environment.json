@@ -1,0 +1,38 @@
+{
+  "python": "3.12.10",
+  "implementation": "CPython",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "cpu_count": 16,
+  "torch": "2.6.0+cu118",
+  "torch_cuda": "11.8",
+  "cuda_available": true,
+  "cudnn": "90100",
+  "gpu": [
+    {
+      "name": "GeForce RTX 2080 Ti",
+      "memory_total": "11264 MiB",
+      "driver_version": "457.51"
+    }
+  ],
+  "gpu_name": "GeForce RTX 2080 Ti",
+  "packages": {
+    "transformers": "4.57.1",
+    "peft": "0.21.2",
+    "ctranslate2": "4.8.4",
+    "faster_whisper": "1.2.1",
+    "soundfile": "0.14.0",
+    "numpy": "2.5.4",
+    "psutil": "7.2.2",
+    "accelerate": "1.15.0"
+  },
+  "ct2_cuda_device_count": 0,
+  "ct2_supported_compute_types": {
+    "cpu": [
+      "float32",
+      "int16",
+      "int8",
+      "int8_float32"
+    ]
+  }
+}

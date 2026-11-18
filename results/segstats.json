@@ -1,0 +1,78 @@
+{
+  "FLEURS km_kh train": {
+    "column": "transcription",
+    "hours": 7.101,
+    "n": 1675,
+    "tokens_per_utt": 5.6764179104477615,
+    "chars_per_utt": 132.50328358208955,
+    "chars_per_token": 23.342763988220447
+  },
+  "FLEURS km_kh train [raw+ZWSP]": {
+    "column": "raw_transcription, U+200B -> space",
+    "hours": 7.101,
+    "n": 1675,
+    "tokens_per_utt": 14.814328358208956,
+    "chars_per_utt": 134.13850746268656,
+    "chars_per_token": 9.054646570484405
+  },
+  "FLEURS km_kh dev": {
+    "column": "transcription",
+    "hours": 1.29,
+    "n": 326,
+    "tokens_per_utt": 4.97239263803681,
+    "chars_per_utt": 127.61656441717791,
+    "chars_per_token": 25.665021591610117
+  },
+  "FLEURS km_kh dev [raw+ZWSP]": {
+    "column": "raw_transcription, U+200B -> space",
+    "hours": 1.29,
+    "n": 326,
+    "tokens_per_utt": 11.0920245398773,
+    "chars_per_utt": 128.94478527607362,
+    "chars_per_token": 11.625
+  },
+  "FLEURS km_kh test": {
+    "column": "transcription",
+    "hours": 3.151,
+    "n": 771,
+    "tokens_per_utt": 5.360570687418936,
+    "chars_per_utt": 133.37354085603113,
+    "chars_per_token": 24.880474231792885
+  },
+  "FLEURS km_kh test [raw+ZWSP]": {
+    "column": "raw_transcription, U+200B -> space",
+    "hours": 3.151,
+    "n": 771,
+    "tokens_per_utt": 12.172503242542152,
+    "chars_per_utt": 135.00129701686123,
+    "chars_per_token": 11.090676611614278
+  },
+  "FLEURS en_us dev": {
+    "column": "transcription",
+    "hours": 1.046,
+    "n": 394,
+    "tokens_per_utt": 20.68274111675127,
+    "chars_per_utt": 103.23350253807106,
+    "chars_per_token": 4.99128727451221
+  },
+  "FLEURS en_us dev [raw+ZWSP]": {
+    "column": "raw_transcription, U+200B -> space",
+    "hours": 1.046,
+    "n": 394,
+    "tokens_per_utt": 20.68781725888325,
+    "chars_per_utt": 105.74619289340102,
+    "chars_per_token": 5.11152005888848
+  },
+  "OpenSLR SLR42 km_kh_male": {
+    "column": "line_index.tsv (word-segmented)",
+    "hours": 11.9,
+    "n": 2906,
+    "tokens_per_utt": 9.008602890571233,
+    "chars_per_utt": 42.30832759807295,
+    "chars_per_token": 4.696436074716376
+  },
+  "_reference_chars_per_token": {
+    "slr42_khmer_words": 4.696436074716376,
+    "fleurs_en_words": 4.99128727451221
+  }
+}

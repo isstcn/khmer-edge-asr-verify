@@ -1,0 +1,79 @@
+{
+  "model": "openai-mirror--whisper-large-v3-turbo",
+  "dtype": "float16",
+  "n": 8,
+  "configs": {
+    "greedy": {
+      "cer": 162.61160714285714,
+      "loop_frac": 1.0,
+      "mean_rep": 0.9811504665744311,
+      "mean_ntok": 443.0,
+      "mean_lp": 0.0,
+      "wall_s": 17.514070200006245
+    },
+    "greedy+nrn3": {
+      "cer": 96.54017857142857,
+      "loop_frac": 0.0,
+      "mean_rep": 0.0,
+      "mean_ntok": 143.0,
+      "mean_lp": 0.0,
+      "wall_s": 5.525746799976332
+    },
+    "greedy+nrn4": {
+      "cer": 131.80803571428572,
+      "loop_frac": 0.0,
+      "mean_rep": 0.0,
+      "mean_ntok": 247.75,
+      "mean_lp": 0.0,
+      "wall_s": 9.14758340001572
+    },
+    "greedy+rp1.2": {
+      "cer": 183.92857142857142,
+      "loop_frac": 1.0,
+      "mean_rep": 0.8761500368759036,
+      "mean_ntok": 443.0,
+      "mean_lp": 0.0,
+      "wall_s": 14.970526499993866
+    },
+    "greedy+rp1.5": {
+      "cer": 92.63392857142857,
+      "loop_frac": 0.0,
+      "mean_rep": 0.0,
+      "mean_ntok": 39.375,
+      "mean_lp": 0.0,
+      "wall_s": 1.9984173999982886
+    },
+    "greedy+nrn3+rp1.2": {
+      "cer": 89.0625,
+      "loop_frac": 0.0,
+      "mean_rep": 0.0,
+      "mean_ntok": 57.5,
+      "mean_lp": 0.0,
+      "wall_s": 2.6585745999764185
+    },
+    "greedy+nrn4+rp1.1": {
+      "cer": 159.15178571428572,
+      "loop_frac": 0.0,
+      "mean_rep": 0.0,
+      "mean_ntok": 397.125,
+      "mean_lp": 0.0,
+      "wall_s": 14.252015100006247
+    },
+    "beam5": {
+      "cer": 139.62053571428572,
+      "loop_frac": 1.0,
+      "mean_rep": 0.9683296450577107,
+      "mean_ntok": 443.0,
+      "mean_lp": -0.14603044651448727,
+      "wall_s": 23.486363100004382
+    },
+    "beam5+nrn3": {
+      "cer": 89.73214285714286,
+      "loop_frac": 0.0,
+      "mean_rep": 0.0,
+      "mean_ntok": 113.5,
+      "mean_lp": -1.498864307999611,
+      "wall_s": 8.539319500006968
+    }
+  }
+}

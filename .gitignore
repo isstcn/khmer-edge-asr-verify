@@ -1,0 +1,28 @@
+# Large or third-party binaries are deliberately not tracked.
+# Regenerate them with scripts/dl_data.py and scripts/dl_models.py.
+
+# model weights, corpus archives, derived HF cache
+models/
+data/fleurs/*.tar.gz
+data/fleurs/*.tsv
+data/fleurs/*.log
+data/fleurs_extract/
+data/slr42/*.zip
+data/slr42/km_kh_male/
+cache/
+
+# LoRA adapter tensors: derived weights, retrainable from runs/*/meta.json + adapter_config.json
+runs/*/adapter/adapter_model.safetensors
+runs/*/adapter/tokenizer.json
+runs/*/adapter/vocab.json
+runs/*/adapter/merges.txt
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# run artefacts written after cloning
+logs/
+*.log
+*.err

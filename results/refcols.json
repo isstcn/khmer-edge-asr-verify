@@ -1,0 +1,1003 @@
+{
+  "km_train": {
+    "n": 1675,
+    "ncols": {
+      "7": 1675
+    },
+    "frac_raw_eq_norm": 0.005970149253731343,
+    "zwsp_rows_raw": 1177,
+    "zwsp_rows_norm": 64,
+    "zwsp_rows_split": 64,
+    "mean_zwsp_raw": 9.999402985074626,
+    "mean_len_raw": 148.85910447761194,
+    "mean_len_norm": 137.1934328358209,
+    "cats_raw": {
+      "Lo": 125512,
+      "Mc": 36478,
+      "Cf": 16749,
+      "Mn": 46792,
+      "Zs": 7908,
+      "Ps": 780,
+      "Lu": 1805,
+      "Ll": 8324,
+      "Pe": 777,
+      "Nd": 1583,
+      "Po": 2218,
+      "Pd": 62,
+      "Lm": 224,
+      "Pi": 59,
+      "Pf": 61,
+      "Sc": 5,
+      "So": 1,
+      "No": 1
+    },
+    "n_diff": 1665,
+    "frac_diff_only_punct": 0.6036036036036037,
+    "frac_diff_only_trailing": 0.13213213213213212,
+    "mean_editdist_diff": 12.94,
+    "chars_only_in_raw": {
+      "។": {
+        "n": 1560,
+        "name": "KHMER SIGN KHAN"
+      },
+      "​": {
+        "n": 1113,
+        "name": "ZERO WIDTH SPACE"
+      },
+      "(": {
+        "n": 485,
+        "name": "LEFT PARENTHESIS"
+      },
+      ")": {
+        "n": 485,
+        "name": "RIGHT PARENTHESIS"
+      },
+      "C": {
+        "n": 140,
+        "name": "LATIN CAPITAL LETTER C"
+      },
+      "A": {
+        "n": 133,
+        "name": "LATIN CAPITAL LETTER A"
+      },
+      "S": {
+        "n": 122,
+        "name": "LATIN CAPITAL LETTER S"
+      },
+      "B": {
+        "n": 94,
+        "name": "LATIN CAPITAL LETTER B"
+      },
+      "M": {
+        "n": 91,
+        "name": "LATIN CAPITAL LETTER M"
+      },
+      "R": {
+        "n": 86,
+        "name": "LATIN CAPITAL LETTER R"
+      },
+      "P": {
+        "n": 86,
+        "name": "LATIN CAPITAL LETTER P"
+      },
+      "G": {
+        "n": 82,
+        "name": "LATIN CAPITAL LETTER G"
+      }
+    },
+    "chars_only_in_norm": {
+      "c": {
+        "n": 96,
+        "name": "LATIN SMALL LETTER C"
+      },
+      "b": {
+        "n": 71,
+        "name": "LATIN SMALL LETTER B"
+      },
+      "p": {
+        "n": 71,
+        "name": "LATIN SMALL LETTER P"
+      },
+      "m": {
+        "n": 60,
+        "name": "LATIN SMALL LETTER M"
+      },
+      "s": {
+        "n": 56,
+        "name": "LATIN SMALL LETTER S"
+      },
+      "f": {
+        "n": 50,
+        "name": "LATIN SMALL LETTER F"
+      },
+      "j": {
+        "n": 49,
+        "name": "LATIN SMALL LETTER J"
+      },
+      "g": {
+        "n": 44,
+        "name": "LATIN SMALL LETTER G"
+      },
+      "h": {
+        "n": 42,
+        "name": "LATIN SMALL LETTER H"
+      },
+      "v": {
+        "n": 40,
+        "name": "LATIN SMALL LETTER V"
+      },
+      "w": {
+        "n": 38,
+        "name": "LATIN SMALL LETTER W"
+      },
+      "d": {
+        "n": 36,
+        "name": "LATIN SMALL LETTER D"
+      }
+    },
+    "frac_split_reconstructs_norm": 1.0,
+    "mean_words_split": 5.6764179104477615,
+    "mean_chars_split": 132.50328358208955,
+    "seg": {
+      "mean_tokens_norm": 5.6764179104477615,
+      "mean_tokens_raw_zwsp": 14.814328358208956,
+      "mean_chars_per_token_norm": 23.342763988220447,
+      "mean_tokens_clausesplit": 6.6764179104477615,
+      "frac_tokens_agree_norm_vs_split": 1.0
+    },
+    "denominator": {
+      "P0_raw": 1.0162651637824196,
+      "P1_raw_noparen": 0.9693105850212135,
+      "P2_norm": 1.0162651637824196,
+      "P3_norm_nopunct": 0.9603314096233817,
+      "P4_norm_nopunct_cf": 0.9603314096233817,
+      "W1_words": 0.9565626093039524
+    },
+    "ref_chars": {
+      "raw_total": 249339,
+      "norm_total": 229799,
+      "raw_protocols": {
+        "P0_raw": 224682,
+        "P1_raw_noparen": 214301,
+        "P2_norm": 224682,
+        "P3_norm_nopunct": 211997,
+        "P4_norm_nopunct_cf": 211997,
+        "W1_words": 218785
+      },
+      "norm_protocols": {
+        "P0_raw": 221086,
+        "P1_raw_noparen": 221086,
+        "P2_norm": 221086,
+        "P3_norm_nopunct": 220754,
+        "P4_norm_nopunct_cf": 220754,
+        "W1_words": 228720
+      }
+    }
+  },
+  "km_dev": {
+    "n": 326,
+    "ncols": {
+      "7": 326
+    },
+    "frac_raw_eq_norm": 0.015337423312883436,
+    "zwsp_rows_raw": 179,
+    "zwsp_rows_norm": 8,
+    "zwsp_rows_split": 8,
+    "mean_zwsp_raw": 6.717791411042945,
+    "mean_len_raw": 139.6840490797546,
+    "mean_len_norm": 131.6073619631902,
+    "cats_raw": {
+      "Lo": 23992,
+      "Mc": 6872,
+      "Mn": 9002,
+      "Zs": 1311,
+      "Po": 418,
+      "Cf": 2190,
+      "Nd": 258,
+      "Pi": 7,
+      "Pf": 7,
+      "Ps": 82,
+      "Lu": 259,
+      "Ll": 989,
+      "Pe": 82,
+      "Lm": 53,
+      "Pd": 13,
+      "No": 2
+    },
+    "n_diff": 321,
+    "frac_diff_only_punct": 0.7165109034267912,
+    "frac_diff_only_trailing": 0.2803738317757009,
+    "mean_editdist_diff": 9.031152647975079,
+    "chars_only_in_raw": {
+      "។": {
+        "n": 304,
+        "name": "KHMER SIGN KHAN"
+      },
+      "​": {
+        "n": 171,
+        "name": "ZERO WIDTH SPACE"
+      },
+      "(": {
+        "n": 63,
+        "name": "LEFT PARENTHESIS"
+      },
+      ")": {
+        "n": 63,
+        "name": "RIGHT PARENTHESIS"
+      },
+      "M": {
+        "n": 26,
+        "name": "LATIN CAPITAL LETTER M"
+      },
+      "S": {
+        "n": 24,
+        "name": "LATIN CAPITAL LETTER S"
+      },
+      "A": {
+        "n": 18,
+        "name": "LATIN CAPITAL LETTER A"
+      },
+      "G": {
+        "n": 17,
+        "name": "LATIN CAPITAL LETTER G"
+      },
+      "P": {
+        "n": 16,
+        "name": "LATIN CAPITAL LETTER P"
+      },
+      "B": {
+        "n": 16,
+        "name": "LATIN CAPITAL LETTER B"
+      },
+      "C": {
+        "n": 14,
+        "name": "LATIN CAPITAL LETTER C"
+      },
+      "\"": {
+        "n": 13,
+        "name": "QUOTATION MARK"
+      }
+    },
+    "chars_only_in_norm": {
+      "m": {
+        "n": 17,
+        "name": "LATIN SMALL LETTER M"
+      },
+      "p": {
+        "n": 15,
+        "name": "LATIN SMALL LETTER P"
+      },
+      "b": {
+        "n": 13,
+        "name": "LATIN SMALL LETTER B"
+      },
+      "s": {
+        "n": 13,
+        "name": "LATIN SMALL LETTER S"
+      },
+      "c": {
+        "n": 11,
+        "name": "LATIN SMALL LETTER C"
+      },
+      "g": {
+        "n": 11,
+        "name": "LATIN SMALL LETTER G"
+      },
+      "v": {
+        "n": 9,
+        "name": "LATIN SMALL LETTER V"
+      },
+      "w": {
+        "n": 8,
+        "name": "LATIN SMALL LETTER W"
+      },
+      "r": {
+        "n": 7,
+        "name": "LATIN SMALL LETTER R"
+      },
+      "n": {
+        "n": 6,
+        "name": "LATIN SMALL LETTER N"
+      },
+      "f": {
+        "n": 5,
+        "name": "LATIN SMALL LETTER F"
+      },
+      "j": {
+        "n": 4,
+        "name": "LATIN SMALL LETTER J"
+      }
+    },
+    "frac_split_reconstructs_norm": 1.0,
+    "mean_words_split": 4.97239263803681,
+    "mean_chars_split": 127.61656441717791,
+    "seg": {
+      "mean_tokens_norm": 4.97239263803681,
+      "mean_tokens_raw_zwsp": 11.0920245398773,
+      "mean_chars_per_token_norm": 25.665021591610117,
+      "mean_tokens_clausesplit": 5.97239263803681,
+      "frac_tokens_agree_norm_vs_split": 1.0
+    },
+    "denominator": {
+      "P0_raw": 1.0132330609588547,
+      "P1_raw_noparen": 0.9845975847855954,
+      "P2_norm": 1.0132330609588547,
+      "P3_norm_nopunct": 0.9755291164900934,
+      "P4_norm_nopunct_cf": 0.9755291164900934,
+      "W1_words": 0.9732631578947368
+    },
+    "ref_chars": {
+      "raw_total": 45537,
+      "norm_total": 42904,
+      "raw_protocols": {
+        "P0_raw": 42036,
+        "P1_raw_noparen": 40848,
+        "P2_norm": 42036,
+        "P3_norm_nopunct": 40423,
+        "P4_norm_nopunct_cf": 40423,
+        "W1_words": 41607
+      },
+      "norm_protocols": {
+        "P0_raw": 41487,
+        "P1_raw_noparen": 41487,
+        "P2_norm": 41487,
+        "P3_norm_nopunct": 41437,
+        "P4_norm_nopunct_cf": 41437,
+        "W1_words": 42750
+      }
+    }
+  },
+  "km_test": {
+    "n": 771,
+    "ncols": {
+      "7": 771
+    },
+    "frac_raw_eq_norm": 0.007782101167315175,
+    "zwsp_rows_raw": 433,
+    "zwsp_rows_norm": 35,
+    "zwsp_rows_split": 35,
+    "mean_zwsp_raw": 7.496757457846952,
+    "mean_len_raw": 146.9040207522698,
+    "mean_len_norm": 137.7367055771725,
+    "cats_raw": {
+      "Lo": 58974,
+      "Mn": 22181,
+      "Mc": 16807,
+      "Zs": 3397,
+      "Po": 1008,
+      "Cf": 5780,
+      "Lm": 110,
+      "Ps": 316,
+      "Lu": 648,
+      "Ll": 3086,
+      "Pe": 314,
+      "Pf": 33,
+      "Nd": 538,
+      "No": 2,
+      "Pd": 39,
+      "Pi": 30
+    },
+    "n_diff": 765,
+    "frac_diff_only_punct": 0.6705882352941176,
+    "frac_diff_only_trailing": 0.24052287581699347,
+    "mean_editdist_diff": 10.8825,
+    "chars_only_in_raw": {
+      "។": {
+        "n": 714,
+        "name": "KHMER SIGN KHAN"
+      },
+      "​": {
+        "n": 398,
+        "name": "ZERO WIDTH SPACE"
+      },
+      "(": {
+        "n": 218,
+        "name": "LEFT PARENTHESIS"
+      },
+      ")": {
+        "n": 218,
+        "name": "RIGHT PARENTHESIS"
+      },
+      "S": {
+        "n": 78,
+        "name": "LATIN CAPITAL LETTER S"
+      },
+      "M": {
+        "n": 45,
+        "name": "LATIN CAPITAL LETTER M"
+      },
+      "A": {
+        "n": 43,
+        "name": "LATIN CAPITAL LETTER A"
+      },
+      "G": {
+        "n": 36,
+        "name": "LATIN CAPITAL LETTER G"
+      },
+      "C": {
+        "n": 35,
+        "name": "LATIN CAPITAL LETTER C"
+      },
+      "P": {
+        "n": 35,
+        "name": "LATIN CAPITAL LETTER P"
+      },
+      "T": {
+        "n": 29,
+        "name": "LATIN CAPITAL LETTER T"
+      },
+      "”": {
+        "n": 28,
+        "name": "RIGHT DOUBLE QUOTATION MARK"
+      }
+    },
+    "chars_only_in_norm": {
+      "s": {
+        "n": 42,
+        "name": "LATIN SMALL LETTER S"
+      },
+      "m": {
+        "n": 41,
+        "name": "LATIN SMALL LETTER M"
+      },
+      "p": {
+        "n": 32,
+        "name": "LATIN SMALL LETTER P"
+      },
+      "c": {
+        "n": 23,
+        "name": "LATIN SMALL LETTER C"
+      },
+      "g": {
+        "n": 21,
+        "name": "LATIN SMALL LETTER G"
+      },
+      "a": {
+        "n": 21,
+        "name": "LATIN SMALL LETTER A"
+      },
+      "t": {
+        "n": 17,
+        "name": "LATIN SMALL LETTER T"
+      },
+      "f": {
+        "n": 16,
+        "name": "LATIN SMALL LETTER F"
+      },
+      "r": {
+        "n": 15,
+        "name": "LATIN SMALL LETTER R"
+      },
+      "b": {
+        "n": 14,
+        "name": "LATIN SMALL LETTER B"
+      },
+      "u": {
+        "n": 13,
+        "name": "LATIN SMALL LETTER U"
+      },
+      "o": {
+        "n": 13,
+        "name": "LATIN SMALL LETTER O"
+      }
+    },
+    "frac_split_reconstructs_norm": 1.0,
+    "mean_words_split": 5.360570687418936,
+    "mean_chars_split": 133.37354085603113,
+    "seg": {
+      "mean_tokens_norm": 5.360570687418936,
+      "mean_tokens_raw_zwsp": 12.172503242542152,
+      "mean_chars_per_token_norm": 24.880474231792885,
+      "mean_tokens_clausesplit": 6.360570687418936,
+      "frac_tokens_agree_norm_vs_split": 1.0
+    },
+    "denominator": {
+      "P0_raw": 1.015661439681502,
+      "P1_raw_noparen": 0.9713800606941775,
+      "P2_norm": 1.015661439681502,
+      "P3_norm_nopunct": 0.9619743629826482,
+      "P4_norm_nopunct_cf": 0.9619743629826482,
+      "W1_words": 0.9585165016969662
+    },
+    "ref_chars": {
+      "raw_total": 113263,
+      "norm_total": 106195,
+      "raw_protocols": {
+        "P0_raw": 104086,
+        "P1_raw_noparen": 99548,
+        "P2_norm": 104086,
+        "P3_norm_nopunct": 98460,
+        "P4_norm_nopunct_cf": 98460,
+        "W1_words": 101389
+      },
+      "norm_protocols": {
+        "P0_raw": 102481,
+        "P1_raw_noparen": 102481,
+        "P2_norm": 102481,
+        "P3_norm_nopunct": 102352,
+        "P4_norm_nopunct_cf": 102352,
+        "W1_words": 105777
+      }
+    }
+  },
+  "en_dev": {
+    "n": 394,
+    "ncols": {
+      "7": 394
+    },
+    "frac_raw_eq_norm": 0.0,
+    "zwsp_rows_raw": 0,
+    "zwsp_rows_norm": 0,
+    "zwsp_rows_split": 0,
+    "mean_zwsp_raw": 0.0,
+    "mean_len_raw": 125.43401015228426,
+    "mean_len_norm": 122.92131979695432,
+    "cats_raw": {
+      "Lu": 1209,
+      "Ll": 38963,
+      "Zs": 7757,
+      "Po": 1069,
+      "Nd": 290,
+      "Ps": 26,
+      "Pe": 26,
+      "Pd": 72,
+      "Pi": 2,
+      "Pf": 5,
+      "No": 2
+    },
+    "n_diff": 394,
+    "frac_diff_only_punct": 0.0,
+    "frac_diff_only_trailing": 0.0,
+    "mean_editdist_diff": 5.598984771573604,
+    "chars_only_in_raw": {
+      ".": {
+        "n": 372,
+        "name": "FULL STOP"
+      },
+      ",": {
+        "n": 249,
+        "name": "COMMA"
+      },
+      "T": {
+        "n": 133,
+        "name": "LATIN CAPITAL LETTER T"
+      },
+      "S": {
+        "n": 101,
+        "name": "LATIN CAPITAL LETTER S"
+      },
+      "A": {
+        "n": 98,
+        "name": "LATIN CAPITAL LETTER A"
+      },
+      "I": {
+        "n": 82,
+        "name": "LATIN CAPITAL LETTER I"
+      },
+      "M": {
+        "n": 60,
+        "name": "LATIN CAPITAL LETTER M"
+      },
+      "C": {
+        "n": 58,
+        "name": "LATIN CAPITAL LETTER C"
+      },
+      "P": {
+        "n": 45,
+        "name": "LATIN CAPITAL LETTER P"
+      },
+      "N": {
+        "n": 44,
+        "name": "LATIN CAPITAL LETTER N"
+      },
+      "B": {
+        "n": 44,
+        "name": "LATIN CAPITAL LETTER B"
+      },
+      "W": {
+        "n": 39,
+        "name": "LATIN CAPITAL LETTER W"
+      }
+    },
+    "chars_only_in_norm": {
+      "j": {
+        "n": 20,
+        "name": "LATIN SMALL LETTER J"
+      },
+      "p": {
+        "n": 13,
+        "name": "LATIN SMALL LETTER P"
+      },
+      "b": {
+        "n": 11,
+        "name": "LATIN SMALL LETTER B"
+      },
+      "c": {
+        "n": 10,
+        "name": "LATIN SMALL LETTER C"
+      },
+      "v": {
+        "n": 6,
+        "name": "LATIN SMALL LETTER V"
+      },
+      "w": {
+        "n": 5,
+        "name": "LATIN SMALL LETTER W"
+      },
+      "k": {
+        "n": 5,
+        "name": "LATIN SMALL LETTER K"
+      },
+      "f": {
+        "n": 3,
+        "name": "LATIN SMALL LETTER F"
+      },
+      "'": {
+        "n": 3,
+        "name": "APOSTROPHE"
+      },
+      "m": {
+        "n": 3,
+        "name": "LATIN SMALL LETTER M"
+      },
+      "-": {
+        "n": 2,
+        "name": "HYPHEN-MINUS"
+      },
+      "x": {
+        "n": 1,
+        "name": "LATIN SMALL LETTER X"
+      }
+    },
+    "frac_split_reconstructs_norm": 1.0,
+    "mean_words_split": 20.68274111675127,
+    "mean_chars_split": 103.23350253807106,
+    "seg": {
+      "mean_tokens_norm": 20.68274111675127,
+      "mean_tokens_raw_zwsp": 20.68781725888325,
+      "mean_chars_per_token_norm": 4.99128727451221,
+      "mean_tokens_clausesplit": 21.68274111675127,
+      "frac_tokens_agree_norm_vs_split": 1.0
+    },
+    "denominator": {
+      "P0_raw": 1.024339873137631,
+      "P1_raw_noparen": 1.0077690908196884,
+      "P2_norm": 1.024339873137631,
+      "P3_norm_nopunct": 0.9852955713720838,
+      "P4_norm_nopunct_cf": 0.9852955713720838,
+      "W1_words": 0.9852251358667576
+    },
+    "ref_chars": {
+      "raw_total": 49421,
+      "norm_total": 48431,
+      "raw_protocols": {
+        "P0_raw": 41664,
+        "P1_raw_noparen": 40990,
+        "P2_norm": 41664,
+        "P3_norm_nopunct": 39869,
+        "P4_norm_nopunct_cf": 39869,
+        "W1_words": 47678
+      },
+      "norm_protocols": {
+        "P0_raw": 40674,
+        "P1_raw_noparen": 40674,
+        "P2_norm": 40674,
+        "P3_norm_nopunct": 40464,
+        "P4_norm_nopunct_cf": 40464,
+        "W1_words": 48393
+      }
+    }
+  },
+  "en_test": {
+    "n": 647,
+    "ncols": {
+      "7": 647
+    },
+    "frac_raw_eq_norm": 0.0,
+    "zwsp_rows_raw": 0,
+    "zwsp_rows_norm": 0,
+    "zwsp_rows_split": 0,
+    "mean_zwsp_raw": 0.0,
+    "mean_len_raw": 132.5177743431221,
+    "mean_len_norm": 129.76197836166924,
+    "cats_raw": {
+      "Lu": 2012,
+      "Ll": 67427,
+      "Po": 1779,
+      "Zs": 13705,
+      "Pd": 93,
+      "Nd": 521,
+      "Ps": 82,
+      "Pe": 82,
+      "Sm": 2,
+      "Pi": 10,
+      "Pf": 20,
+      "No": 2,
+      "Sc": 4
+    },
+    "n_diff": 647,
+    "frac_diff_only_punct": 0.0,
+    "frac_diff_only_trailing": 0.0,
+    "mean_editdist_diff": 5.8125,
+    "chars_only_in_raw": {
+      ".": {
+        "n": 619,
+        "name": "FULL STOP"
+      },
+      ",": {
+        "n": 405,
+        "name": "COMMA"
+      },
+      "T": {
+        "n": 236,
+        "name": "LATIN CAPITAL LETTER T"
+      },
+      "S": {
+        "n": 144,
+        "name": "LATIN CAPITAL LETTER S"
+      },
+      "A": {
+        "n": 140,
+        "name": "LATIN CAPITAL LETTER A"
+      },
+      "I": {
+        "n": 107,
+        "name": "LATIN CAPITAL LETTER I"
+      },
+      "M": {
+        "n": 97,
+        "name": "LATIN CAPITAL LETTER M"
+      },
+      "P": {
+        "n": 96,
+        "name": "LATIN CAPITAL LETTER P"
+      },
+      "C": {
+        "n": 93,
+        "name": "LATIN CAPITAL LETTER C"
+      },
+      "B": {
+        "n": 79,
+        "name": "LATIN CAPITAL LETTER B"
+      },
+      "F": {
+        "n": 72,
+        "name": "LATIN CAPITAL LETTER F"
+      },
+      ")": {
+        "n": 72,
+        "name": "RIGHT PARENTHESIS"
+      }
+    },
+    "chars_only_in_norm": {
+      "j": {
+        "n": 24,
+        "name": "LATIN SMALL LETTER J"
+      },
+      "g": {
+        "n": 16,
+        "name": "LATIN SMALL LETTER G"
+      },
+      "b": {
+        "n": 13,
+        "name": "LATIN SMALL LETTER B"
+      },
+      "k": {
+        "n": 11,
+        "name": "LATIN SMALL LETTER K"
+      },
+      "f": {
+        "n": 10,
+        "name": "LATIN SMALL LETTER F"
+      },
+      "'": {
+        "n": 10,
+        "name": "APOSTROPHE"
+      },
+      "p": {
+        "n": 8,
+        "name": "LATIN SMALL LETTER P"
+      },
+      "v": {
+        "n": 7,
+        "name": "LATIN SMALL LETTER V"
+      },
+      "m": {
+        "n": 7,
+        "name": "LATIN SMALL LETTER M"
+      },
+      "w": {
+        "n": 6,
+        "name": "LATIN SMALL LETTER W"
+      },
+      "z": {
+        "n": 4,
+        "name": "LATIN SMALL LETTER Z"
+      },
+      "u": {
+        "n": 4,
+        "name": "LATIN SMALL LETTER U"
+      }
+    },
+    "frac_split_reconstructs_norm": 1.0,
+    "mean_words_split": 22.17001545595054,
+    "mean_chars_split": 108.57959814528593,
+    "seg": {
+      "mean_tokens_norm": 22.17001545595054,
+      "mean_tokens_raw_zwsp": 22.182380216383308,
+      "mean_chars_per_token_norm": 4.897587841606247,
+      "mean_tokens_clausesplit": 23.17001545595054,
+      "frac_tokens_agree_norm_vs_split": 1.0
+    },
+    "denominator": {
+      "P0_raw": 1.0253804216310087,
+      "P1_raw_noparen": 1.0057081037992341,
+      "P2_norm": 1.0253804216310087,
+      "P3_norm_nopunct": 0.983073140046892,
+      "P4_norm_nopunct_cf": 0.983073140046892,
+      "W1_words": 0.9826402136589089
+    },
+    "ref_chars": {
+      "raw_total": 85739,
+      "norm_total": 83956,
+      "raw_protocols": {
+        "P0_raw": 72034,
+        "P1_raw_noparen": 70652,
+        "P2_norm": 72034,
+        "P3_norm_nopunct": 68764,
+        "P4_norm_nopunct_cf": 68764,
+        "W1_words": 82416
+      },
+      "norm_protocols": {
+        "P0_raw": 70251,
+        "P1_raw_noparen": 70251,
+        "P2_norm": 70251,
+        "P3_norm_nopunct": 69948,
+        "P4_norm_nopunct_cf": 69948,
+        "W1_words": 83872
+      }
+    }
+  },
+  "_sensitivity": {
+    "dev_base_greedy": {
+      "n": 82,
+      "cer": {
+        "raw_ref/P0_raw": 120.518,
+        "raw_ref/P1_raw_noparen": 122.792,
+        "raw_ref/P2_norm": 120.518,
+        "raw_ref/P3_norm_nopunct": 123.59,
+        "raw_ref/P4_norm_nopunct_cf": 123.531,
+        "raw_ref/W1_words": 159.401,
+        "norm_ref/P0_raw": 121.486,
+        "norm_ref/P1_raw_noparen": 121.486,
+        "norm_ref/P2_norm": 121.486,
+        "norm_ref/P3_norm_nopunct": 121.472,
+        "norm_ref/P4_norm_nopunct_cf": 121.472,
+        "norm_ref/W1_words": 155.404
+      },
+      "spread_within_column": {
+        "raw_ref": 38.883,
+        "norm_ref": 33.932
+      },
+      "spread_overall": 38.883,
+      "spread_char_protocols_only": 3.072,
+      "mean_spaces_per_utt": {
+        "hyp": 59.18,
+        "raw_ref": 3.77,
+        "norm_ref": 4.12
+      }
+    },
+    "dev_base_greedy_repsup": {
+      "n": 82,
+      "cer": {
+        "raw_ref/P0_raw": 97.928,
+        "raw_ref/P1_raw_noparen": 97.87,
+        "raw_ref/P2_norm": 97.928,
+        "raw_ref/P3_norm_nopunct": 97.887,
+        "raw_ref/P4_norm_nopunct_cf": 97.828,
+        "raw_ref/W1_words": 96.623,
+        "norm_ref/P0_raw": 97.891,
+        "norm_ref/P1_raw_noparen": 97.891,
+        "norm_ref/P2_norm": 97.891,
+        "norm_ref/P3_norm_nopunct": 97.88,
+        "norm_ref/P4_norm_nopunct_cf": 97.88,
+        "norm_ref/W1_words": 96.599
+      },
+      "spread_within_column": {
+        "raw_ref": 1.305,
+        "norm_ref": 1.292
+      },
+      "spread_overall": 1.329,
+      "spread_char_protocols_only": 0.1,
+      "mean_spaces_per_utt": {
+        "hyp": 4.46,
+        "raw_ref": 3.77,
+        "norm_ref": 4.12
+      }
+    },
+    "dev_loraDec_greedy": {
+      "n": 82,
+      "cer": {
+        "raw_ref/P0_raw": 88.364,
+        "raw_ref/P1_raw_noparen": 90.019,
+        "raw_ref/P2_norm": 88.364,
+        "raw_ref/P3_norm_nopunct": 90.554,
+        "raw_ref/P4_norm_nopunct_cf": 90.554,
+        "raw_ref/W1_words": 89.23,
+        "norm_ref/P0_raw": 88.955,
+        "norm_ref/P1_raw_noparen": 88.955,
+        "norm_ref/P2_norm": 88.955,
+        "norm_ref/P3_norm_nopunct": 88.967,
+        "norm_ref/P4_norm_nopunct_cf": 88.967,
+        "norm_ref/W1_words": 87.715
+      },
+      "spread_within_column": {
+        "raw_ref": 2.19,
+        "norm_ref": 1.252
+      },
+      "spread_overall": 2.839,
+      "spread_char_protocols_only": 2.19,
+      "mean_spaces_per_utt": {
+        "hyp": 0.37,
+        "raw_ref": 3.77,
+        "norm_ref": 4.12
+      }
+    },
+    "dev_loraDec_greedy_repsup": {
+      "n": 82,
+      "cer": {
+        "raw_ref/P0_raw": 85.64,
+        "raw_ref/P1_raw_noparen": 86.196,
+        "raw_ref/P2_norm": 85.64,
+        "raw_ref/P3_norm_nopunct": 85.777,
+        "raw_ref/P4_norm_nopunct_cf": 85.561,
+        "raw_ref/W1_words": 87.399,
+        "norm_ref/P0_raw": 85.465,
+        "norm_ref/P1_raw_noparen": 85.465,
+        "norm_ref/P2_norm": 85.465,
+        "norm_ref/P3_norm_nopunct": 85.014,
+        "norm_ref/P4_norm_nopunct_cf": 84.995,
+        "norm_ref/W1_words": 86.367
+      },
+      "spread_within_column": {
+        "raw_ref": 1.838,
+        "norm_ref": 1.372
+      },
+      "spread_overall": 2.404,
+      "spread_char_protocols_only": 1.201,
+      "mean_spaces_per_utt": {
+        "hyp": 12.13,
+        "raw_ref": 3.77,
+        "norm_ref": 4.12
+      }
+    },
+    "dev_loraDec19_greedy": {
+      "n": 82,
+      "cer": {
+        "raw_ref/P0_raw": 68.196,
+        "raw_ref/P1_raw_noparen": 68.969,
+        "raw_ref/P2_norm": 68.196,
+        "raw_ref/P3_norm_nopunct": 69.078,
+        "raw_ref/P4_norm_nopunct_cf": 69.078,
+        "raw_ref/W1_words": 68.473,
+        "norm_ref/P0_raw": 68.198,
+        "norm_ref/P1_raw_noparen": 68.198,
+        "norm_ref/P2_norm": 68.198,
+        "norm_ref/P3_norm_nopunct": 68.215,
+        "norm_ref/P4_norm_nopunct_cf": 68.215,
+        "norm_ref/W1_words": 67.754
+      },
+      "spread_within_column": {
+        "raw_ref": 0.882,
+        "norm_ref": 0.461
+      },
+      "spread_overall": 1.324,
+      "spread_char_protocols_only": 0.882,
+      "mean_spaces_per_utt": {
+        "hyp": 1.27,
+        "raw_ref": 3.77,
+        "norm_ref": 4.12
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+# Khmer edge-device ASR benchmark — verified environment.
+# Interpreter: CPython 3.12.10
+# Every version below was read back with importlib.metadata on 2026-10-31,
+# i.e. these are the versions that actually produced results/, not aspirations.
+
+# --- core inference ---
+torch==2.6.0+cu118
+torchaudio==2.6.0+cu118
+transformers==4.57.1
+tokenizers==0.22.2
+safetensors==0.8.0
+accelerate==1.15.0
+huggingface-hub==0.36.2
+
+# --- adaptation ---
+peft==0.21.2
+
+# --- edge deployment ---
+ctranslate2==4.8.4
+faster-whisper==1.2.1
+
+# --- audio ---
+soundfile==0.14.0
+librosa==1.0.0
+scipy==1.18.1
+
+# --- measurement ---
+numpy==2.5.4
+jiwer==4.0.0
+psutil==7.2.2
+
+# --- data / model download (scripts/dl_data.py, scripts/dl_models.py) ---
+modelscope==1.40.2
+
+# --- misc ---
+tqdm==4.70.1
+requests==2.34.2
+
+# NOTE: `datasets==5.1.0` is present in the environment but is *not* used and must not
+# be imported. transformers 4.57.1's `trainer.py` imports `datasets` unconditionally,
+# and `datasets` 5.1.0 does
+#     from huggingface_hub.errors import BucketNotFoundError
+# which does not exist in huggingface-hub 0.36.2, raising ImportError at import time.
+# Rather than perturb the pinned torch/transformers/CUDA-11.8 stack that the Windows
+# wheels are built against, scripts/lora.py implements the training loop directly on
+# peft + torch (AdamW, cosine schedule with linear warmup, grad clipping) and never
+# touches Trainer or datasets. Feature/token caches are plain .npy files.
